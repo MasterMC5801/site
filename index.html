@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MasterMC5801</title>
+    <link rel="icon" type="image/png" href="media/favicon.png">
+    <link rel="stylesheet" href="media/style.css">
+    <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      </div>
+    </nav>
+    <div class="mobile_navbar">
+      <a href="#" class="mobile_navbar_logo_img_a"><img class="mobile_navbar_logo_img" alt="logo"></a>
+      <div id="mobile_navbar_links">
+        </div>
+        <div class="icon" onclick="mobile_navbar_link_hider()">
+            <i class="fa fa-bars"></i>
+        </div>
+        <script>
+            function mobile_navbar_link_hider() {
+            var x = document.getElementById("mobile_navbar_links");
+            if (x.style.display === "flex") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "flex";
+            }
+            } 
+        </script>
+    </div>
+    <div class="mainflex">
+      <div class="main1">
+        <a class="main1_logo_a" href="#">
+          <img class="main1_logo" src="media/logo.png" alt="logo">
+        </a>
+        <div class="main1_description">
+          <a><br></a>
+          <a class="main1_actcent">MasterMC5801
+        </div>
+        <div class="main1_ipcopier_div">
+          <script>
+            function copyText() {
+                navigator.clipboard.writeText
+            ("play.example.com");
+                }
+            $(document).ready(function() {
+            $('.main1_ipcopier').click(function() {
+                var popup = $('<div>', { class: 'main1_popup' })
+                .append($('<h3 class="copy_confirm">').text('Copied IP to clipboard'))
+                $(this).after(popup);
+                setTimeout(function() {
+                popup.remove();
+                }, 1000);
+            });
+            });
+        </script>
+        </div>
+        <a href="#more" class="scroll">
+          <img alt="downarrow" class="main1_downarrow" src="media/downarrow.png">
+        </a>
+        <script>
+          const scrollLinks = document.querySelectorAll('.scroll');
+          scrollLinks.forEach(function(link) {
+            link.addEventListener('click', function(event) {
+              event.preventDefault();
+              const target = document.querySelector(link.getAttribute('href'));
+              const offsetTop = target.offsetTop;
+              window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+              });
+            });
+          });
+        </script>
+      </div>
+      <div id="more"></div>
+      </div>
+      <div id="about"></div>
+      <div class="main5">
+        <a class="headline">ᴡʜᴏ ɪ ᴀᴍ</a>
+        <div class="main5_admin_div">
+          <div class="main5_admins_div main5_admins_dev_type2">
+            <img class="main5_admins_img" alt="admin member img" src="media/member_placeholder.png">
+            <div class="main5_admins_description_div">
+              <a class="main5_admins_description_title main5_admins_description_rank_owner">[ᴏᴡɴᴇʀ]</a>
+			  <a class="main5_admins_description_title">ᴏɴ
+              <a class="main5_admins_description_title" href="https://www.boatosta.net/">Boatosta.net</a>
+            </div>
+          </div>
+        </div>
+		<a class="headline">ʟɪɴᴋѕ</a>
+		<div class="main5_admin_div">
+          <div class="main5_admins_div main5_admins_dev_type2">
+            <img class="main5_admins_img" alt="admin member img" src="media/logo.png">
+            <div class="main5_admins_description_div">
+              <a class="main5_admins_description_title" href="https://t.me/MasterMC5801">ᴛᴇʟᴇɢʀᴀᴍ</a>
+			  <a class="main5_admins_description_title" href="https://www.youtube.com/channel/UCetT-yjInmTA2jCWhypxKNQ">ʏᴏᴜᴛᴜʙᴇ</a>
+              <a class="main5_admins_description_title" href="https://www.twitch.tv/mastermc5801">ᴛᴡɪᴛᴄʜ</a>
+			  <a class="main5_admins_description_title" href="https://www.instagram.com/mastermc5801">ɪɴѕᴛᴀɢʀᴀᴍ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="copyright_div">
+      <a href="https://github.com/FQQD/MCServer-Web-Template" class="copyright">ᴍᴀᴅᴇ ʙʏ MasterMC5801 ɪɴ ₂₀₂₅ </a>
+    </footer>
+  </body>
+</html>
