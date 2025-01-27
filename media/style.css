@@ -201,7 +201,7 @@ body {
     justify-content: center;
     background: rgba(0, 0, 0, .5) url('https://i.imgur.com/THRmMup.png');
     background-blend-mode: normal;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: 50% 50%;
 }
 
