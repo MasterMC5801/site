@@ -1,2 +1,2 @@
-# site
-links of MasterMC5801
+# A little site
+ʟɪɴᴋѕ ᴏꜰ ᴍᴀѕᴛᴇʀᴍᴄ₅₈₀₁
